@@ -1,64 +1,98 @@
 <!DOCTYPE html>
 <html lang="th" dir="ltr">
+
 <head>
-  <meta charset="utf-8">
-  <title>HRNPH_dev</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/contents.css">
+    <meta charset="utf-8">
+    <title>HRNPH_dev</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contents.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./javascript/navbar.js"></script>
 </head>
 
 <body class="no-border">
-  <div class="layout" >
-    <div class="navbar" id="grad-main">
-      <h1>HRNPH</h1>
-      <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar">
-      <div class="nav-menu">
-        <h2>หิรัญกุล พิมพ์ศิริ</h2>
-        <div>
-          <h2><a href="#main">หน้าหลัก</a></h2>
-          <h2><a href="#profile">โปรไฟล์</a></h2>
-          <h2><a href="#portfolio">ผลงาน</a></h2>
-          <h2><a href="#award">เกียรติบัตร</a></h2>
-          <h2><a href="#education">การศึกษา</a></h2>
-          <h2><a href="#shell">shell</a></h2>
+
+    <div class="layout">
+        <div class="navbar" id="grad-main">
+            <h1>HRNPH</h1>
+            <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar">
+            <div class="nav-menu">
+                <h2>หิรัญกุล พิมพ์ศิริ</h2>
+                <div id="nav-link-menu">
+                    <a class='nav-link active' href="#main">
+                        <h2>หน้าหลัก</h2>
+                    </a>
+                    <a class='nav-link' href="#profile">
+                        <h2>โปรไฟล์</h2>
+                    </a>
+                    <a class='nav-link' href="#portfolio">
+                        <h2>ผลงาน</h2>
+                    </a>
+                    <a class='nav-link' href="#award">
+                        <h2>เกียรติบัตร</h2>
+                    </a>
+                    <a class='nav-link' href="#education">
+                        <h2>การศึกษา</h2>
+                    </a>
+                    <a class='nav-link' href="#shell">
+                        <h2>shell</h2>
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="content-wrapper">
-      <div class="content-box" id="main">
-        
-        <div class="main-content-header">
-          <h1 class="no-border" id="writename"></h1>
-          <div class="main-content-header-head no-border">
-            <h1 id="writename-thai"></h1>
-            <h1 class="blink">|</h1>
-          </div>
-          <hr>
-          <h1>adadada</h1>
+        <div class="content-wrapper">
+            <div class="content-box" id="main">
+
+                <div class="main-content-header">
+                    <h1 class="no-border" id="writename"></h1>
+                    <div class="main-content-header-head no-border">
+                        <h1 id="writename-thai"></h1>
+                        <h1 class="blink">|</h1>
+                    </div>
+                    <hr>
+                    <div class="main-content-footer no-border">
+                        <!-- greeting -->
+                        <div class="main-content-footer-greeting no-border">
+                            <h3>An indie Highschooler in Japanease-English class Who Spends 4hrs a day self study programming, loved to develop something useful / fun, I devoted my life and time to the joy of learning</h3>
+                        </div>
+
+                        <div class="main-content-footer-icon-container">
+                            <div class="main-content-footer-icon-container-icon big-font">
+                                <icon href="#" class="icon-link"><i class="fa-brands fa-github"></i></icon>
+                                <icon href="https://www.youtube.com/channel/UCTCjINFxvBTkqD0ihWPTz8g" class="icon-link"><i class="fa-brands fa-youtube"></i></icon>
+                                <icon href="https://www.facebook.com/hrnph" class="icon-link"><i class="fa-brands fa-facebook-square"></i></icon>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <script src="./javascript/typewriter.js"></script>
+            <div class="content-box" id="profile">
+                <h1>This Is My Profile website</h1>
+            </div>
+            <div class="content-box" id="portfolio">
+                <h1>This Is My Profile website</h1>
+            </div>
+            <div class="content-box" id="award">
+                <h1>This Is My Profile website</h1>
+            </div>
+            <div class="content-box" id="education">
+                <h1>This Is My Profile website</h1>
+            </div>
+            <div class="content-box" id="shell">
+                <h1>This Is My Profile website</h1>
+            </div>
 
         </div>
-      </div>
-      <script src="./javascript/typewriter.js"></script>
-      <div class="content-box" id="profile">
-        <h1>This Is My Profile website</h1>
-      </div>
-      <div class="content-box" id="portfolio">
-        <h1>This Is My Profile website</h1>
-      </div>
-      <div class="content-box" id="award">
-        <h1>This Is My Profile website</h1>
-      </div>
-      <div class="content-box" id="education">
-        <h1>This Is My Profile website</h1>
-      </div>
-      <div class="content-box" id="shell">
-        <h1>This Is My Profile website</h1>
-      </div>
-      
-    </div>
 
-  </div>
+    </div>
 </body>
+
 
 </html>

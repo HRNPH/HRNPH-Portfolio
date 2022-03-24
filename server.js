@@ -18,6 +18,15 @@ app.use(express.static(__dirname + '/public/'));
 app.use('/', mainRoute);
 app.use('/failure', failure);
 
+app.post("/refresh", async (req, res) => {
+    console.log("repl.deploy" + req.body + req.headers.get("Signature"))
+    
+    const result = JSON.parse((await getStdinLine()) || '{}');
+
+    await res.setStatus(result.status).end(result.body)
+    console.log("repl.deploy-success")
+})
+
 app.listen(port, () => {
     console.log(`server listening on
        port ${port}!`)

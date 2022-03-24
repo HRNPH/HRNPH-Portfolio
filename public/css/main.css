@@ -1,42 +1,62 @@
-*{ 
+* {
     scroll-behavior: smooth
-  }
-.layout{
+}
+
+.layout {
     display: flex;
     height: 100%;
 }
-  
-#sidebar { 
-    width: 190px; 
+
+#sidebar {
+    width: 190px;
 }
-.navbar{
+
+.navbar {
     color: white;
     text-align: center;
-
-    border-right:  1px solid #ededed;
+    border-right: 1px solid #ededed;
     flex: 1 0 5%;
     padding: 1rem;
 }
-.nav-menu{
+
+.nav-menu {
     color: white;
 }
-.content-wrapper{
+
+.nav-link:link {
+    color: #ffffff60
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:visited {
+    color: #ffffff60
+}
+
+.nav-link:active {
+    color: white;
+}
+
+.content-wrapper {
     flex: 10;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
 }
-.content-box{
+
+.content-box {
     flex: 1;
     min-width: 100%;
     min-height: 100vh;
 }
 
-#grad-main{
+#grad-main {
     background-image: linear-gradient(#fe6e00, rgb(243, 213, 147));
 }
 
-.no-border{
+.no-border {
     border: none;
     margin: 0;
     padding: 0;
@@ -47,60 +67,51 @@ img {
     max-width: 50%;
     max-height: 50%;
 }
+
 body {
     overflow: hidden;
     height: 100vh;
 }
-hr{
+
+hr {
     border: 0;
-    clear:both;
-    display:block;
-    width: 100%;               
+    clear: both;
+    display: block;
+    width: 90%;
     background-color: grey;
     height: 1px;
+    margin-left: 0;
 }
 
+a.nav-link:link {
+    background-color: none;
+    text-decoration: none;
+}
 
-a:link {
-    color: #ffffff60;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:visited {
-    color: #ffffff60;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
+a.nav-link:hover {
     color: white;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:active {
-    color: none;
-    background-color: transparent;
-    text-decoration: none;
-  }
+    background-color: none;
+}
 
-.active {
+a.nav-link:active {
     color: white;
-    background-color: transparent;
-    text-decoration: none;
+    background-color: none;
+}
+
+.active:link {
+    color: white;
+    background-color: none;
 }
 
 @media screen and (max-width: 980px) {
-    .navbar{
+    .navbar {
         display: none;
     }
-    .content-wrapper{
+    .content-wrapper {
         flex-direction: column;
     }
-    .content-box{
+    .content-box {
         min-width: 100%;
         min-height: 100vh;
     }
 }
-    
