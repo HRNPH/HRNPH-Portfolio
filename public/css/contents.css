@@ -105,6 +105,9 @@ a.main-button {
         font-size: calc(10vw + 20px);
         visibility: visible;
     }
+    hr {
+        margin-left: auto;
+    }
 }
 
 
@@ -171,27 +174,15 @@ a.main-button {
 }
 
 
-/* The typing effect */
+/* The Blinking effect */
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 100%
-    }
+.blink-me {
+    animation: blinker 2.75s linear infinite;
 }
 
-
-/* The typewriter cursor effect */
-
-@keyframes blink-caret {
-    from,
-    to {
-        border-color: transparent
-    }
+@keyframes blinker {
     50% {
-        border-color: orange;
+        opacity: 0;
     }
 }
 
