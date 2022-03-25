@@ -106,6 +106,17 @@ a.nav-link:active {
 }
 
 
+/* theme color */
+
+.theme-main {
+    color: #fe6e00;
+}
+
+.theme-sub {
+    color: #24282b;
+}
+
+
 /* responsive */
 
 
