@@ -1,9 +1,80 @@
-/* portfolio */
+/* profile */
 
-#profile {}
+#profile {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* justify-content: center; */
+}
+
+.profile-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1vh;
+}
+
+.profile-cards.double {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-card {
+    padding: 1vw;
+}
+
+#small-card {
+    flex: 4;
+    padding: 1vw;
+}
+
+#wide-card {
+    flex: 6;
+    padding: 1vw;
+}
+
+.profile-card.card {
+    background-color: white;
+    box-shadow: 0px 0px 15px #888888;
+    border-radius: 25px;
+    color: #24282b;
+}
+
+.profile-card.card img {
+    width: calc(100px + 5vw);
+}
+
+.profile-card.header {}
+
+.profile-bio {
+    color: #24282b;
+    font-size: calc(25px + 0.2vw);
+}
+
+.profile-bio hr {
+    width: 45vw;
+}
+
+.profile-bio.bio {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1vw;
+}
+
+.bio #small {
+    flex: 3;
+}
+
+.bio #big {
+    flex: 7;
+}
 
 
-/* end of portfolio */
+/* end of profile */
 
 #portfolio {}
 
@@ -17,6 +88,23 @@
 
 
 /* add effect */
+
+
+/* lower ocupacity (fade text) */
+
+#fade {
+    opacity: 0.85;
+}
+
+
+/* rounded corner */
+
+#rounded-corner1 {
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
 
 
 /* Blinking */
@@ -39,6 +127,17 @@
 
 
 /* end of blinking */
+
+
+/* alignment */
+
+#left {
+    text-align: left;
+}
+
+#right {
+    text-align: right;
+}
 
 
 /* type writer */
