@@ -24,6 +24,12 @@
     text-align: left;
 }
 
+img.mobile-avatar {
+    visibility: hidden;
+    display: none;
+    overflow: hidden;
+}
+
 .main-content-footer {
     display: flex;
     flex-direction: row;
@@ -97,9 +103,15 @@ a.main-button {
     .main-content-header {
         text-align: center;
         font-size: calc(20px + 1.5vw);
+        align-items: center;
     }
     .main-content-header-head {
         justify-content: center;
+    }
+    img.mobile-avatar {
+        display: block;
+        visibility: visible;
+        margin-bottom: 1.75vh;
     }
     a.main-button {
         font-size: calc(10vw + 20px);
