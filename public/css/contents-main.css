@@ -124,6 +124,9 @@ a.main-button {
         padding-right: 5vw;
         padding-left: 5vw;
     }
+    .main-content-footer-greeting {
+        padding-bottom: 1.5vw;
+    }
 }
 
 
