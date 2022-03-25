@@ -120,6 +120,11 @@ a.main-button {
     hr {
         margin-left: auto;
     }
+    a.icon-link {
+        font-size: calc(10vw + 20px);
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
 }
 
 
