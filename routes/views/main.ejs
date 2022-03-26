@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/contents.css">
     <link rel="stylesheet" href="css/contents-main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./javascript/navbar.js"></script>
 </head>
@@ -85,58 +86,81 @@
                 <div class="profile-cards double">
                     <div class="profile-card " id="small-card">
                         <div class="profile-card card">
-                            <img src="https://avatars.githubusercontent.com/u/51855316?v=4" alt="Avatar">
-                            <h1>หิรัญกุล พิมพ์ศิริ</h1>
-                            <p>Devoted Learner</p>
+                            <ul class="bio-lists no-border">
+                                <li class="bio-list">
+                                    <h3 class="bio-list-title">ชื่อเล่น</h3>
+                                    <h3 class="bio-list-content" id="fade">ไกด์ : guide</h3>
+                                </li>
+                                <li class="bio-list">
+                                    <h3 class="bio-list-title">
+                                        อีเมล</h3>
+                                    <h3 class="bio-list-content" id="fade">hirunkul2548@hotmail.com</h3>
+                                </li>
+                                <li class="bio-list">
+                                    <h3 class="bio-list-title">
+                                        เบอร์มือถือ</h3>
+                                    <h3 class="bio-list-content" id="fade">061-405-6229</h3>
+                                </li>
+                                <li class="bio-list no-border">
+                                    <h3 class="bio-list-title">
+                                        งานอดิเรก</h3>
+                                    <h3 class="bio-list-content" id="fade">เล่นเกม อ่านหนังสือ ลงทุน</h3>
+                                </li>
+                            </ul>
                         </div>
+
+                        <div class="profile-card card">
+                            <ul class="bio-lists no-border">
+                                <li class="bio-list">
+                                    <h3 class="bio-list-title">
+                                        <span class="iconify-inline" data-icon="mdi:web" data-width="20"></span> Website</h3>
+                                    <h3 class="bio-list-content" id="fade">https://hirunkul.dev</h3>
+                                </li>
+                                <li class="bio-list">
+                                    <h3 class="bio-list-title">
+                                        <span class="iconify-inline" data-icon="akar-icons:github-fill" style="color: black;" data-width="20"></span> Github</h3>
+                                    <h3 class="bio-list-content" id="fade">hrnph</h3>
+                                </li>
+                                <li class="bio-list no-border">
+                                    <h3 class="bio-list-title">
+                                        <span class="iconify-inline" data-icon="akar-icons:facebook-fill" style="color: blue;" data-width="20"></span> Facebook</h3>
+                                    <h3 class="bio-list-content" id="fade">@hrnph</h3>
+                                </li>
+                            </ul>
+                        </div>
+
 
                     </div>
                     <div class="profile-card" id="wide-card">
                         <div class="profile-card card">
-                            <div class="profile-bio" id="left">
-                                <div class="profile-bio bio">
-                                    <p class="bio" id="small">
-                                        <span class="theme-main"><i class="fa fa-envelope" aria-hidden="true"></i></span> Email
-                                    </p>
-                                    <p class="bio" id="big">
-                                        <span id="fade">hirunkul2548@gmail.com</span>
-                                    </p>
-
+                            <h1>SKILL</h1>
+                            <div class="bio">
+                                <div class="bio-contain">
+                                    <span class="iconify" data-icon="vscode-icons:file-type-python" style="color: orange;" data-width="80"></span>
+                                    <h3>Python</h3>
+                                </div>
+                                <div class="bio-contain">
+                                    <span class="iconify" data-icon="simple-icons:tensorflow" style="color: orange;" data-width="80"></span>
+                                    <h3>Tensorflow</h3>
+                                </div>
+                                <div>
+                                    <span class="iconify" data-icon="logos:numpy" style="color: orange;" data-width="75"></span>
+                                    <h3>Numpy</h3>
+                                </div>
+                                <div>
+                                    <span class="iconify" data-icon="logos:nodejs-icon" style="color: orange;" data-width="80"></span>
+                                    <h3>NodeJS</h3>
+                                </div>
+                                <div>
+                                    <span class="iconify" data-icon="logos:mysql" style="color: orange;" data-width="130"></span>
+                                    <h3>MySQL</h3>
+                                </div>
+                                <div>
+                                    <span class="iconify" data-icon="vscode-icons:file-type-mongo" style="color: orange;" data-width="80"></span>
+                                    <h3>MongoDB</h3>
                                 </div>
 
-                                <hr>
-                                <div class="profile-bio bio">
-                                    <p class="bio" id="small">
-                                        <span class="theme-main"><i class="fa-solid fa-phone"></i></span> Phone
-                                    </p>
-                                    <p class="bio" id="big">
-                                        <span id="fade">061-405-6229</span>
-                                    </p>
-
-                                </div>
-                                <hr>
-                                <div class="profile-bio bio">
-                                    <p class="bio" id="small">
-                                        <span class="theme-main" id="small-font"><i class="fa-brands fa-github"></i></span> Github
-                                    </p>
-                                    <p class="bio" id="big">
-                                        <span id="fade">HRNPH</span>
-                                    </p>
-
-                                </div>
-
-                                <hr>
-                                <div class="profile-bio bio">
-                                    <p class="bio" id="small">
-                                        <span class="theme-main"><i class="fa-solid fa-book-bookmark"></i></span> Hobby
-                                    </p>
-                                    <p class="bio" id="big">
-                                        <span id="fade">เล่นเกม โค้ด อ่านหนังสือ ลงทุน</span>
-                                    </p>
-
-                                </div>
                             </div>
-
 
                         </div>
                     </div>
