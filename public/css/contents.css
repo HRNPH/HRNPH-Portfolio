@@ -73,6 +73,20 @@
     border-bottom: 0px solid #00000020;
 }
 
+@media screen and (max-width: 980px) {
+    .profile-cards.double {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .profile-card.card {
+        min-width: 80vw;
+        margin: 1vw;
+    }
+    .bio-list {
+        font-size: calc(15px + 1.5vw);
+    }
+}
+
 
 /* end of profile */
 

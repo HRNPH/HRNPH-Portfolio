@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    margin-left: 3rem;
+    margin-left: 3vw;
 }
 
 .content-box {
@@ -130,6 +130,7 @@ a.nav-link:active {
     }
     .content-wrapper {
         flex-direction: column;
+        margin-right: 3vw;
     }
     .content-box {
         min-width: 100%;
