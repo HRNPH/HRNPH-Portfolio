@@ -103,6 +103,7 @@ a.main-button {
         text-align: center;
         font-size: calc(20px + 1.5vw);
         align-items: center;
+        margin-right: 0;
     }
     .main-content-header-head {
         justify-content: center;

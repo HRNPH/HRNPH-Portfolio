@@ -85,6 +85,14 @@
     .bio-list {
         font-size: calc(15px + 1.5vw);
     }
+    .bio-list svg {
+        width: calc(40px + 1.5vw);
+        height: calc(40px + 1.5vw);
+    }
+    .bio svg {
+        width: calc(100px + 1.5vw);
+        height: calc(100px + 1.5vw);
+    }
 }
 
 
