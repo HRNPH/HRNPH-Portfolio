@@ -28,7 +28,7 @@
 }
 
 #small-card {
-    flex: 4;
+    flex: 2.5;
     padding: 1vw;
 }
 
@@ -39,38 +39,38 @@
 
 .profile-card.card {
     background-color: white;
-    box-shadow: 0px 0px 15px #888888;
-    border-radius: 25px;
+    box-shadow: 0px 0px 2px #6b6969;
     color: #24282b;
+    margin-bottom: 1vh;
 }
 
 .profile-card.card img {
     width: calc(100px + 5vw);
 }
 
-.profile-card.header {}
-
-.profile-bio {
-    color: #24282b;
-    font-size: calc(25px + 0.2vw);
+.bio {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
-.profile-bio hr {
-    width: 45vw;
+.bio-lists {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
 }
 
-.profile-bio.bio {
+.bio-list {
     display: flex;
     flex-direction: row;
-    padding-left: 1vw;
+    justify-content: space-between;
+    border-bottom: 1px solid #00000020;
 }
 
-.bio #small {
-    flex: 3;
-}
-
-.bio #big {
-    flex: 7;
+.bio-list.no-border {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 0px solid #00000020;
 }
 
 
