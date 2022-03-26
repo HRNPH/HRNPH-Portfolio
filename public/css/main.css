@@ -52,7 +52,7 @@
     flex-grow: 0;
     min-width: 100%;
     min-height: 100vh;
-    margin-bottom: calc(0);
+    margin-bottom: 0;
 }
 
 #grad-main {
