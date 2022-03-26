@@ -45,13 +45,15 @@
     flex-direction: column;
     overflow-y: auto;
     margin-left: 3vw;
+    justify-content: space-between;
 }
 
 .content-box {
     flex: 1;
+    flex-grow: 0;
     min-width: 100%;
     min-height: 100vh;
-    margin-top: 1vw;
+    margin-bottom: (20px + 25vw);
 }
 
 #grad-main {
@@ -135,5 +137,6 @@ a.nav-link:active {
     .content-box {
         min-width: 100%;
         min-height: 100vh;
+        margin-bottom: (20px + 25vw);
     }
 }
