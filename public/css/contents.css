@@ -27,10 +27,11 @@
     flex: 1;
 }
 
-.portfolio-project-card-img img {
+.portfolio-project-card img {
     border-radius: 0;
     min-width: 100%;
     min-height: 100%;
+    max-width: 100%;
 }
 
 .portfolio-project-card .button {
