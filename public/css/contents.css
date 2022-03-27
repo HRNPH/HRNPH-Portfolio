@@ -1,5 +1,42 @@
 #portfolio {}
 
+.portfolio-project-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px #6b6969;
+    margin: 2vw;
+}
+
+.portfolio-project-card-content {
+    flex: 6;
+    padding: 1vw;
+}
+
+.portfolio-project-card-imgs {
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1vw;
+}
+
+.portfolio-project-card-img {
+    flex: 1;
+}
+
+.portfolio-project-card-img img {
+    border-radius: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.portfolio-project-card .button {
+    margin-left: 1vw;
+    border-radius: 5px;
+    max-width: 20%;
+}
+
 #awards {}
 
 #education {}
@@ -132,4 +169,18 @@
 .icon-link:hover {
     color: #fe6e00;
     cursor: pointer;
+}
+
+
+/* button class */
+
+.button {
+    background-color: #24282b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
