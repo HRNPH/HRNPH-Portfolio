@@ -12,6 +12,7 @@
     <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./javascript/navbar.js"></script>
+    <script src="./javascript/image_zoom.js"></script>
 </head>
 
 <body class="no-border">
@@ -78,8 +79,9 @@
                     </div>
 
                 </div>
+                <script src="./javascript/typewriter.js"></script>
             </div>
-            <script src="./javascript/typewriter.js"></script>
+
             <!-- profile -->
             <div class="content-box" id="profile">
                 <h1 id="small-font" class="theme-main">PROFILE</h1>
@@ -194,7 +196,14 @@
                         <a href="#" class="button"><span class="iconify-inline" data-icon="akar-icons:github-fill" style="color:white;" data-width="20"></span> Github</a>
                         <div class="portfolio-project-card-imgs">
                             <div class="portfolio-project-card-img">
-                                <img src="https://via.placeholder.com/300" alt="">
+                                <img id="myImg" src="https://via.placeholder.com/300" alt="Snow" style="width:100%;max-width:300px">
+
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption"></div>
+                                </div>
                             </div>
                             <div class="portfolio-project-card-img">
                                 <img src="https://via.placeholder.com/300" alt="">
