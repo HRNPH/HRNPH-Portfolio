@@ -1,3 +1,5 @@
+/* portfolio */
+
 #portfolio {}
 
 .portfolio-project-card {
@@ -36,6 +38,15 @@
     border-radius: 5px;
     max-width: 20%;
 }
+
+@media screen and (max-width: 980px) {
+    #portfolio p {
+        font-size: calc(20px + 0.2vh + 0.2vw);
+    }
+}
+
+
+/* end of portfolio */
 
 #awards {}
 
