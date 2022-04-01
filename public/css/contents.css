@@ -122,9 +122,11 @@
     background-color: #222;
     padding: 2px 16px;
     color: white;
+    display: none;
 }
 
 .row:after {
+    display: none;
     content: "";
     display: table;
     clear: both;
@@ -142,6 +144,7 @@
 /* Add a transparency effect for thumnbail images */
 
 .demo {
+    display: none;
     opacity: 0.6;
 }
 
