@@ -11,16 +11,16 @@ const failure = require('./routes/0failure');
 const mainRoute = require('./routes/main');
 
 //basic_website_resource(html,css,etc)
-app.set ( "view engine", "ejs" );
+app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public/'));
 
 //website_use_routes
 app.use('/', mainRoute);
 app.use('/failure', failure);
 
-app.post("/refresh", async (req, res) => {
+app.post("/refresh", async(req, res) => {
     console.log("repl.deploy" + req.body + req.headers.get("Signature"))
-    
+
     const result = JSON.parse((await getStdinLine()) || '{}');
 
     await res.setStatus(result.status).end(result.body)
@@ -30,5 +30,4 @@ app.post("/refresh", async (req, res) => {
 app.listen(port, () => {
     console.log(`server listening on
        port ${port}!`)
-  });
-  
+});
