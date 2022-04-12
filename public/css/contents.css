@@ -1,17 +1,3 @@
-#awards {}
-
-#award-container {
-    display: grid;
-    column-gap: 0.5vw;
-    row-gap: 0.5vh;
-}
-
-.award-content {
-    display: inline-grid;
-}
-
-#education {}
-
 #shell {
     background-color: black;
 }
