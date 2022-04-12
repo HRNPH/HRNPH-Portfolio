@@ -149,9 +149,10 @@
     background-color: #24282b;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 64px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 1vw;
 }
